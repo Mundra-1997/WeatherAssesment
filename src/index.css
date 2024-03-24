@@ -47,6 +47,7 @@ h1 {
 }
 
 .app input {
+  width: 70%;
   padding: .7rem 1.5rem;
   font-size: 1.2rem;
   border-radius: 25px;
@@ -61,7 +62,7 @@ h1 {
 
 .container {
   max-width: 700px;
-  height: 700px;
+
   margin: auto;
   padding: 0 1rem;
   position: relative;
@@ -91,9 +92,22 @@ h1 {
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 12px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.253);
 }
 
 .bold {
   font-weight: 700;
+}
+.line{
+  background: #fff;
+  width: 2px;
+}
+
+@media (max-width:767px){
+  p{
+    font-size: 1.2rem;
+  }
+  h1{
+    font-size: 3rem;
+  }
 }
