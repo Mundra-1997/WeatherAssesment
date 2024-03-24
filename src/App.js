@@ -14,7 +14,7 @@ function App() {
     if (location.trim() !== "") {
       const timeout = setTimeout(() => {
         fetchWeatherData();
-      }, 1000); // Adjust debounce delay as needed (e.g., 1000ms = 1 second)
+      }, 1000);
       setTypingTimeout(timeout);
     } else {
       setData({});
